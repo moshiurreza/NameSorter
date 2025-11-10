@@ -1,41 +1,58 @@
 # NameSorter
 
-A lightweight .NET Core console application that [briefly describe purpose], built for [target audience or use case].
+A lightweight .NET Core console application that sort names. The names are sort by last name, then its given name(s)
 
 
 
-![Build Status](https://ci.appveyor.com/api/projects/status/github/yourusername/projectname?svg=true)
-![NuGet](https://img.shields.io/nuget/v/YourPackageName)
+## Build Status
+
+https://ci.appveyor.com/project/MoshiurRahmanReza/namesorter
+
 
 
 ## Installation
 
-Clone the repo and restore dependencies:
+### Clone the repo and restore dependencies:
 
-```bash
-git clone https://github.com/moshiurreza/NameSorter.git
-cd NameSorter
-dotnet restore
+[PS] git clone https://github.com/moshiurreza/NameSorter.git
+[PS] cd NameSorter
+[PS] dotnet restore
+[PS] dotnet build .\NameSorter.sln
 
 
 
-#### 5. **Usage**
-```md
 ## Usage
 
-Run the application:
+### Run the application:
 
-```bash
-dotnet run --project src/ProjectName
+#### Optiion 1:
+[PS] cd DyeDurham.NameSorterApp\bin\Debug\net8.0
+
+Place your file with unsorted names at this path. For example - unsorted-names-list.txt
+You can find some sample files with unsorted name files in NameSorter\Docs\SampleTestFiles
+
+To run the application - 
+[PS] .\DyeDurham.NameSorterApp .\unsorted-names-list.txt
+
+if you wish not to use .\ at the beginging, the add the full path of "NameSorter\DyeDurham.NameSorterApp\bin\Debug\net8.0" to env path variable.
+
+This will sort the names, print the sorted names in console, and create/recreate sorted-names-list.txt with the sorted names
+
+#### Optiion 2:
+You are in folder "NameSorter"
+Place your file with unsorted names at this path. For example - unsorted-names-list.txt
+You can find some sample files with unsorted name files in NameSorter\Docs\SampleTestFiles
+
+[PS] dotnet run --project DyeDurham.NameSorterApp .\unsorted-names-list.txt
 
 
 
-
-#### 7. **Tests**
-```md
 ## Tests
 
-Run unit tests with:
+You are in folder "NameSorter"
 
-```bash
-dotnet test tests/ProjectName.Tests
+Run unit tests with:
+[PS] dotnet test DyeDurham.NameSorterApp.UnitTests
+
+Run integration tests with:
+[PS] dotnet test DyeDurham.NameSorterApp.IntegrationTests
