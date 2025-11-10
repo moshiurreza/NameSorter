@@ -56,7 +56,7 @@ Run unit tests for DyeDurham.NameSorterApp.SortService with:
 
 Run unit tests for DyeDurham.NameSorterApp.Helper with:
 
-[PS] dotnet tests DyeDurham.NameSorterApp.Helper.Tests
+[PS] dotnet test DyeDurham.NameSorterApp.Helper.Tests
 
 Run integration tests for DyeDurham.NameSorterApp.FileService with:
 
