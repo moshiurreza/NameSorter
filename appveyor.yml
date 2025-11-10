@@ -1,0 +1,49 @@
+# appveyor.yml
+version: 1.0.{build}
+
+# Build configuration for .NET Core
+image: Visual Studio 2022
+
+configuration: Release
+platform: Any CPU
+
+# Environment
+environment:
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+# Branches to build
+branches:
+  only:
+    - main
+
+init:
+  - echo Initializing build...
+
+install:
+  - ps: Install-Product dotnet "8.0.x"
+
+build_script:
+  - dotnet restore NameSorter.sln
+  - dotnet build NameSorter.sln --configuration %configuration%
+
+test_script:
+  - dotnet test NameSorter.sln --configuration %configuration% --no-build --verbosity normal
+
+ # - dotnet publish --configuration Release --output artifacts
+
+artifacts:
+  - path: DyeDurham.NameSorterApp/bin/Release/net8.0/  
+    name: NameSorter
+    type: zip
+
+test: off
+deploy: off
+
+notifications:
+  - provider: Email
+    to:
+      - moshiur.rahman.reza@gmail.com
+    on_build_success: true
+    on_build_failure: true
+
