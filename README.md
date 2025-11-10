@@ -1,4 +1,4 @@
-# NameSorter
+# Name Sorter
 
 A lightweight .NET Core console application that sort names. The names are sort by last name, then its given name(s)
 
@@ -15,9 +15,13 @@ https://ci.appveyor.com/project/MoshiurRahmanReza/namesorter
 ### Clone the repo and restore dependencies:
 
 [PS] git clone https://github.com/moshiurreza/NameSorter.git
+
 [PS] cd NameSorter
+
 [PS] dotnet restore
+
 [PS] dotnet build .\NameSorter.sln
+
 
 
 
