@@ -25,6 +25,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DyeDurham.NameSorterApp.Interface\DyeDurham.NameSorterApp.Interface.csproj" />
+    <ProjectReference Include="..\DyeDurham.NameSorterApp.SortService\DyeDurham.NameSorterApp.SortService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 

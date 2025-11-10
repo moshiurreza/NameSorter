@@ -56,10 +56,14 @@ You can find some sample files with unsorted name files in NameSorter\Docs\Sampl
 
 You are in folder "NameSorter"
 
-Run unit tests with:
+Run unit tests for DyeDurham.NameSorterApp.SortService with:
 
-[PS] dotnet test DyeDurham.NameSorterApp.UnitTests
+[PS] dotnet test DyeDurham.NameSorterApp.SortService.Tests
 
-Run integration tests with:
+Run unit tests for DyeDurham.NameSorterApp.Helper with:
 
-[PS] dotnet test DyeDurham.NameSorterApp.IntegrationTests
+[PS] dotnet tests DyeDurham.NameSorterApp.Helper.Tests
+
+Run integration tests for DyeDurham.NameSorterApp.FileService with:
+
+[PS] dotnet test DyeDurham.NameSorterApp.FileService.Tests
