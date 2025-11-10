@@ -13,8 +13,8 @@ A lightweight .NET Core console application that [briefly describe purpose], bui
 Clone the repo and restore dependencies:
 
 ```bash
-git clone https://github.com/yourusername/projectname.git
-cd projectname
+git clone https://github.com/moshiurreza/NameSorter.git
+cd NameSorter
 dotnet restore
 
 
