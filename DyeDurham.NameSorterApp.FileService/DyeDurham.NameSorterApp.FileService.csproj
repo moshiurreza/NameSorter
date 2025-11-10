@@ -9,7 +9,6 @@
   <ItemGroup>
     <ProjectReference Include="..\DyeDurham.NameSorterApp.Common\DyeDurham.NameSorterApp.Common.csproj" />
     <ProjectReference Include="..\DyeDurham.NameSorterApp.Interface\DyeDurham.NameSorterApp.Interface.csproj" />
-    <ProjectReference Include="..\DyeDurham.NameSorterApp.Model\DyeDurham.NameSorterApp.Model.csproj" />
   </ItemGroup>
 
 </Project>

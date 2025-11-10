@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.Common", "DyeDurham.NameSorterApp.Common\DyeDurham.NameSorterApp.Common.csproj", "{892416E2-39AA-4299-94DE-6D0D460583A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.Model", "DyeDurham.NameSorterApp.Model\DyeDurham.NameSorterApp.Model.csproj", "{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.Interface", "DyeDurham.NameSorterApp.Interface\DyeDurham.NameSorterApp.Interface.csproj", "{C170A196-C30E-41B9-89B1-F0D2B4297E15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.FileService", "DyeDurham.NameSorterApp.FileService\DyeDurham.NameSorterApp.FileService.csproj", "{F9DB143B-CB5E-43D9-BEAD-3916D9A0542E}"
@@ -43,10 +41,6 @@ Global
 		{892416E2-39AA-4299-94DE-6D0D460583A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{892416E2-39AA-4299-94DE-6D0D460583A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{892416E2-39AA-4299-94DE-6D0D460583A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C170A196-C30E-41B9-89B1-F0D2B4297E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C170A196-C30E-41B9-89B1-F0D2B4297E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C170A196-C30E-41B9-89B1-F0D2B4297E15}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -17,8 +17,8 @@ branches:
   only:
     - main
 
-init:
-  - echo Initializing build...
+#init:
+#  - echo Initializing build...
 
 install:
   - ps: Install-Product dotnet "8.0.x"
