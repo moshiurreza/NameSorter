@@ -4,12 +4,6 @@ A lightweight .NET Core console application that sort names. The names are sort 
 
 
 
-## Build Status
-
-https://ci.appveyor.com/project/MoshiurRahmanReza/namesorter
-
-
-
 ## Installation
 
 ### Clone the repo and restore dependencies:
@@ -67,3 +61,10 @@ Run unit tests for DyeDurham.NameSorterApp.Helper with:
 Run integration tests for DyeDurham.NameSorterApp.FileService with:
 
 [PS] dotnet test DyeDurham.NameSorterApp.FileService.Tests
+
+
+
+## Build Status
+
+https://ci.appveyor.com/project/MoshiurRahmanReza/namesorter
+
