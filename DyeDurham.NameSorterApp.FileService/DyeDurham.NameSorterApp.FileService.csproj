@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DyeDurham.NameSorterApp.Common\DyeDurham.NameSorterApp.Common.csproj" />
+    <ProjectReference Include="..\DyeDurham.NameSorterApp.Interface\DyeDurham.NameSorterApp.Interface.csproj" />
+    <ProjectReference Include="..\DyeDurham.NameSorterApp.Model\DyeDurham.NameSorterApp.Model.csproj" />
+  </ItemGroup>
+
+</Project>

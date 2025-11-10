@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DyeDurham.NameSorterApp.Common\DyeDurham.NameSorterApp.Common.csproj" />
+    <ProjectReference Include="..\DyeDurham.NameSorterApp.FileService\DyeDurham.NameSorterApp.FileService.csproj" />
+    <ProjectReference Include="..\DyeDurham.NameSorterApp.Helper\DyeDurham.NameSorterApp.Helper.csproj" />
+    <ProjectReference Include="..\DyeDurham.NameSorterApp.SortService\DyeDurham.NameSorterApp.SortService.csproj" />
+  </ItemGroup>
+
+</Project>

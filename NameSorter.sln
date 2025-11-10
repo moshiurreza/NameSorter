@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp", "DyeDurham.NameSorterApp\DyeDurham.NameSorterApp.csproj", "{06A7CCF3-E485-45DA-B14B-0B52C5B8280A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.UnitTests", "DyeDurham.NameSorterApp.UnitTests\DyeDurham.NameSorterApp.UnitTests.csproj", "{28F80D72-010C-4F4C-879C-27186D5F8158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.IntegrationTests", "DyeDurham.NameSorterApp.IntegrationTests\DyeDurham.NameSorterApp.IntegrationTests.csproj", "{8C777C84-3332-4FCD-966C-D1865A70F7E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.Common", "DyeDurham.NameSorterApp.Common\DyeDurham.NameSorterApp.Common.csproj", "{892416E2-39AA-4299-94DE-6D0D460583A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.Model", "DyeDurham.NameSorterApp.Model\DyeDurham.NameSorterApp.Model.csproj", "{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.Interface", "DyeDurham.NameSorterApp.Interface\DyeDurham.NameSorterApp.Interface.csproj", "{C170A196-C30E-41B9-89B1-F0D2B4297E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.FileService", "DyeDurham.NameSorterApp.FileService\DyeDurham.NameSorterApp.FileService.csproj", "{F9DB143B-CB5E-43D9-BEAD-3916D9A0542E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.Helper", "DyeDurham.NameSorterApp.Helper\DyeDurham.NameSorterApp.Helper.csproj", "{D8FF3BCF-0A70-43E5-828E-F8C26BF24008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DyeDurham.NameSorterApp.SortService", "DyeDurham.NameSorterApp.SortService\DyeDurham.NameSorterApp.SortService.csproj", "{15E0495A-EF27-4A17-8C0C-833E4AFF1747}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06A7CCF3-E485-45DA-B14B-0B52C5B8280A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A7CCF3-E485-45DA-B14B-0B52C5B8280A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A7CCF3-E485-45DA-B14B-0B52C5B8280A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A7CCF3-E485-45DA-B14B-0B52C5B8280A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F80D72-010C-4F4C-879C-27186D5F8158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F80D72-010C-4F4C-879C-27186D5F8158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F80D72-010C-4F4C-879C-27186D5F8158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F80D72-010C-4F4C-879C-27186D5F8158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C777C84-3332-4FCD-966C-D1865A70F7E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C777C84-3332-4FCD-966C-D1865A70F7E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C777C84-3332-4FCD-966C-D1865A70F7E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C777C84-3332-4FCD-966C-D1865A70F7E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892416E2-39AA-4299-94DE-6D0D460583A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892416E2-39AA-4299-94DE-6D0D460583A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892416E2-39AA-4299-94DE-6D0D460583A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892416E2-39AA-4299-94DE-6D0D460583A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA21E7F5-8C9F-415B-81FE-B216B6B094B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C170A196-C30E-41B9-89B1-F0D2B4297E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C170A196-C30E-41B9-89B1-F0D2B4297E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C170A196-C30E-41B9-89B1-F0D2B4297E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C170A196-C30E-41B9-89B1-F0D2B4297E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DB143B-CB5E-43D9-BEAD-3916D9A0542E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DB143B-CB5E-43D9-BEAD-3916D9A0542E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DB143B-CB5E-43D9-BEAD-3916D9A0542E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DB143B-CB5E-43D9-BEAD-3916D9A0542E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FF3BCF-0A70-43E5-828E-F8C26BF24008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FF3BCF-0A70-43E5-828E-F8C26BF24008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FF3BCF-0A70-43E5-828E-F8C26BF24008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FF3BCF-0A70-43E5-828E-F8C26BF24008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E0495A-EF27-4A17-8C0C-833E4AFF1747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E0495A-EF27-4A17-8C0C-833E4AFF1747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E0495A-EF27-4A17-8C0C-833E4AFF1747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E0495A-EF27-4A17-8C0C-833E4AFF1747}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BD7B863-3E63-4067-BACA-7060BB058E90}
+	EndGlobalSection
+EndGlobal
